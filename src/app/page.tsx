@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useState } from "react";
 
 export default function Home() {
@@ -347,7 +346,7 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="py-24 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-5xl md:text-6xl font-bold text-white mb-8">Let's Create Something Amazing</h2>
+          <h2 className="text-5xl md:text-6xl font-bold text-white mb-8">Let&apos;s Create Something Amazing</h2>
           <p className="text-xl text-gray-300 mb-16 max-w-3xl mx-auto">
             Ready to bring your vision to life? Get in touch to discuss your next project and how we can work together.
           </p>
@@ -361,7 +360,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Email</h3>
               <p className="text-gray-300 mb-4 text-lg">soubhagyag73@gmail.com</p>
-              <p className="text-gray-400">I'll get back to you within 24 hours</p>
+              <p className="text-gray-400">I&apos;ll get back to you within 24 hours</p>
             </div>
             
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-12 border border-gray-700">
